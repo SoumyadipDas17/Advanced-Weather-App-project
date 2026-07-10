@@ -87,7 +87,7 @@ while True :
     if a==1:
         f=open("weather report","ab+")
         f.seek(0)
-        city=input("enter city").upper()
+        city=input("Enter city : ").upper()
         currentweatherreport(city)
     elif a==2 :
         searchhistory(history)

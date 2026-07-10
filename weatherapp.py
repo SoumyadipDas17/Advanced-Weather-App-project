@@ -31,7 +31,7 @@ def currentweatherreport(city):     #1
     if response.status_code==200 :
         data=response.json()
         print ("THE CURRENT CONDITIONS OF",city.upper(),":")
-        print ("TEMPERATURE(C):",data["current_condition"][0]['temp_C'])
+        print ("TEMPERATURE(°C):",data["current_condition"][0]['temp_C'])
         print ("HUMIDITY(%):",data["current_condition"][0]['humidity'])
         print("WEATHER DESCRIPTION:",data["current_condition"][0]['weatherDesc'][0]["value"])
         print ("WIND SPEED(KPH):",data["current_condition"][0]['windspeedKmph'])

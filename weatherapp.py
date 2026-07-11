@@ -110,7 +110,7 @@ while True :
             while ans=="Y" :
                 b=int(input("enter the number present before the searched city in order to delete it from search history:"))
                 serial.append(history[(-1)*b])
-                ans=input("press 'Y' to delete more:").upper()
+                ans=input("enter 'Y' to delete more:").upper()
             for element in serial :
                 history.remove(element)
                             

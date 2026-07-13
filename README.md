@@ -49,6 +49,31 @@ Let's search the current weather conditions of few more cities in order to under
 
 Now let's see the search history
 <img width="1077" height="307" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/1d2c6404-a754-482d-80ea-8a05e1b8cee0" />
+To use the DELETE SEARCH HISTORY option from the MAIN MENU , enter the integer 3. After that you have to enter your choice:-
+ * If you want to delete particular search(es) from your search history, you have to enter 1.
+ * If you want to delete your entire search history, you have to enter 2.
+
+For example, if we want to delete LONDON,KOLKATA and PARIS from the search history, we will enter 1, as we want to delete particular searches. Then the user has to enter the number present before a particular search in order to delete it from search history, after that the user has to enter 'Y' or 'y' only if he/she wants to delete more. Again the user has to enter the number present before a particular search in order to delete it from search history, this cycle will keep on repeating as long as the user is entering 'Y' or 'y'. In the search history, the number present before LONDON,KOLKATA and PARIS are 2,4 and 5 respectively. So, we will deal with them in the same way as it is mentioned above in order to delete their names from the search history.
+<img width="1073" height="911" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/83f5f70d-3940-47e4-ab33-f25014ebf94a" />
+You can see that a message "required elements are deleted" is displayed after giving the input 'n' instead of 'Y'(or 'y'). Let's see the search history now.
+<img width="1095" height="249" alt="Screenshot (71)" src="https://github.com/user-attachments/assets/647beb24-57cc-4da6-b387-f08b323cfbac" />
+As we can see LONDON,KOLKATA and PARIS are deleted from search history. The search history is showing the names of the cities in the order that is expected. And there are numbers present before PATNA and DELHI, marking their new serial numbers which can be used for operations like searching the current weather condition ( and geting forecast ) and deleting the name of city after them from search history.
+
+Now we want to delete the entire search history. For that we have to use DELETE SEARCH HISTORY option of MAIN MENU by entering 3 and then we have to enter 2 to delete the entire search history. After entering 2, an input message "DO YOU WANT YOUR ENTIRE SEARCH HISTORY TO BE DELETED? ENTER 'Y' IF SO..." will appear. We have to enter 'Y' or 'y' to delete the entire search history. A message "ENTIRE SEARCH HISTORY HAS BEEN DELETED!" will appear.
+<img width="1085" height="480" alt="Screenshot (73)" src="https://github.com/user-attachments/assets/f7a8ff31-6d6e-4639-b0d2-d61269755823" />
+Now let's see the search history.
+<img width="1072" height="501" alt="Screenshot (74)" src="https://github.com/user-attachments/assets/3451d45c-c298-4fe6-abdf-7628edd00bfb" />
+As you can see there are no names of any cities in the search history. This is because the entire search history has been deleted.
+
+##EXIT
+To use EXIT option of the MAIN MENU you have to enter 4. On using this option, you will break the infinite loop that is running in the program and you will exit from the program.
+
+In case if you enter any integer other than 1 or 2 or 3 or 4, a message "INVALID CHOICE" will be displayed.
+<img width="1064" height="385" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/f6badad1-c0b0-47bc-a580-dad66d33fed5" />
+
+
+
+
 
 
 
